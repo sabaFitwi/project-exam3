@@ -1,0 +1,41 @@
+.card {
+  background-color: #fff;
+  padding: 14px;
+  border: none;
+}
+
+ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.profile-image {
+  width: 35px;
+}
+
+.username {
+  font-size: 12px;
+}
+
+.my-color {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  padding: 0.3rem 0.3rem 0.2rem;
+}

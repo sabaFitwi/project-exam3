@@ -1,0 +1,29 @@
+.loader-size {
+  width: 150px;
+  height: 150px;
+}
+
+.error {
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.danger {
+  border-left-color: #d9534f;
+
+  background-color: rgba(217, 83, 79, 0.1);
+}
+
+.danger strong {
+  color: $danger;
+}
+
+.listing-card {
+  display: none;
+}
+
+.listing-card:nth-child(n + 1):nth-child(-n + 10) {
+  display: inline-block;
+  transition: 0.2s ease;
+}
