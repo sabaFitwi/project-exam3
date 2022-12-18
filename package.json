@@ -12,6 +12,10 @@
     "lint-fix": "eslint src/**/*.mjs --cache --fix",
     "prepare": "husky install"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabaFitwi/project-exam3.git"
+  },
   "keywords": [
     "Auction",
     "bid",
