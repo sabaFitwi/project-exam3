@@ -22,3 +22,5 @@ export const isUserLoggedIn = function () {
     loggedIn.forEach((item) => item.classList.add("d-none"));
   }
 };
+
+

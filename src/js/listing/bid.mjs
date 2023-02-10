@@ -33,6 +33,7 @@ form.addEventListener("submit", (event) => {
  * **/
 
 async function sellListing(sellsInput) {
+  const bidContainer = document.querySelector('.bidContainer');
   const queryString = window.location.search;
   const params = new URLSearchParams(queryString);
   let id = params.get("id");
@@ -48,6 +49,8 @@ async function sellListing(sellsInput) {
   );
   console.log(response);
   if (response.ok) {
+    bidContainer.remove();
+    location.reload();
     return await response.json();
   }
 
